@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "주석, 변수, 상수 예제 코드"
+title:  "주석, 변수, 상수"
 date:   2024-03-07
 excerpt: ""
 tag:
