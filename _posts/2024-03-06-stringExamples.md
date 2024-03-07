@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Scanner, print 예제"
+title:  "Scanner, print"
 date:   2024-03-06
 excerpt: ""
 tag:
