@@ -21,6 +21,7 @@ comments: false
 ## 코드쟁이 TMI
 ### 다룰 수 있는 언어 : Python, Java, C++, C#, html, css, Javascript, Lua, MarkDown, Vue, sql
 ### 세부 기술들
+
 | 언어 | 기술 |
 |:--------|--------:|
 | Python | PyQT5, Flask, BeautifulSoup, PyMySql, konlpy, RabbitMQ, schedule, pip |
