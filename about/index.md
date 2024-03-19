@@ -25,7 +25,7 @@ comments: false
 | 언어 | 기술 |
 |:--------|--------:|
 | Python | PyQT5, Flask, BeautifulSoup, PyMySql, konlpy, RabbitMQ, schedule, pip, pygame |
-| Java | hibernate, sparkjava, lombok, Maven, SpringBoot, jsoup, mysql, freemarker springboot |
+| Java | hibernate, sparkjava, lombok, Maven, SpringBoot, jsoup, mysql, freemarker |
 | C#, C++ | Unity |
 | Javascript | d3, chartjs, NodeJS |
 {: rules="groups"}
