@@ -58,6 +58,7 @@ comments: true
 - ++ : 값을 1 증가
 - -- : 값을 1 감소
 
+# 예제 3
     public class OperatorIncrement {
         public static void main(String args[]) {
             int i = 0, b;
