@@ -14,18 +14,18 @@ comments: true
 - % : 나머지 연산자
 
 # 예제 1
-  public class OperatorArithmetic {
-	  public static void main(String args[]) {
-		  int int1 = 5, int2 = 29;
-		  System.out.println("29 * 5 = " + int2 * int1);
-		  System.out.println("29 / 5 = " + int2 / int1);
-		  System.out.println("25 / 5 = " + 25 / int1);
-		  System.out.println("29 % 30 = " + 29 % 30);
+    public class OperatorArithmetic {
+	    public static void main(String args[]) {
+		    int int1 = 5, int2 = 29;
+		    System.out.println("29 * 5 = " + int2 * int1);
+		    System.out.println("29 / 5 = " + int2 / int1);
+		    System.out.println("25 / 5 = " + 25 / int1);
+		    System.out.println("29 % 30 = " + 29 % 30);
 		
-		  System.out.println("'a' % 'b' = " + 'a' % 'b');
-		  System.out.println("29.1f % 30.7 = " + 29.1f % 30.7);
-	  }
-  }
+		    System.out.println("'a' % 'b' = " + 'a' % 'b');
+		    System.out.println("29.1f % 30.7 = " + 29.1f % 30.7);
+	    }
+    }
 ## 10번째 줄에서 30.8은 double형이므로 29.1f가 double로 형변환된다.
 
 # 관계 연산자
@@ -40,47 +40,48 @@ comments: true
 - 또는 : ||
 
 # 예제 2
-  public class OperatorLogical {
-	  public static void main(String args[]) {
-		  int int1 = 5, int2 = 6, int3 = -1;
-		  if(int1 < int2 && int3 < 0)
-			  System.out.println("int1 < int2 && int3 < 0");
-		  if(int1 < int2 && int3 > 0)
-			  System.out.println("int1 < int2 && int3 > 0");
-		  if(int1 > int2 || int3 < 0)
-			  System.out.println("int1 > int2 || int3 < 0");
-		  if(int1 > int2 || int3 > 0)
-			  System.out.println("int1 > int2 || int3 > 0");
-	  }
-  }
+    public class OperatorLogical {
+	    public static void main(String args[]) {
+		    int int1 = 5, int2 = 6, int3 = -1;
+		    if(int1 < int2 && int3 < 0)
+			    System.out.println("int1 < int2 && int3 < 0");
+		    if(int1 < int2 && int3 > 0)
+			    System.out.println("int1 < int2 && int3 > 0");
+		    if(int1 > int2 || int3 < 0)
+			    System.out.println("int1 > int2 || int3 < 0");
+		    if(int1 > int2 || int3 > 0)
+			    System.out.println("int1 > int2 || int3 > 0");
+	    }
+    }
 
 # 증가, 감소 연산자
 - ++ : 값을 1 증가
 - -- : 값을 1 감소
 
-  public class OperatorIncrement {
-	  public static void main(String args[]) {
-		  int i = 0, b;
-		  b = i++;
-		  //	b = i;
-		  //	i = i + 1;
-		  System.out.println("(i++) b = " + b);
-		  System.out.println("(i++) i = " + i);
+    public class OperatorIncrement {
+        public static void main(String args[]) {
+		    int i = 0, b;
+		    b = i++;
+		    //	b = i;
+		    //	i = i + 1;
+		    System.out.println("(i++) b = " + b);
+		    System.out.println("(i++) i = " + i);
 		
-		  i = 0;
-		  b = ++i;
-		  //	i = i + 1;
-		  //	b = i;
-		  System.out.println("(++i) b = " + b);
-		  System.out.println("(++i) i = " + i);
+		    i = 0;
+		    b = ++i;
+		    //	i = i + 1;
+		    //	b = i;
+		    System.out.println("(++i) b = " + b);
+		    System.out.println("(++i) i = " + i);
   
-		  char c = 'A';
-		  System.out.println("c++ = " + c++);
-  		System.out.println("++c = " + ++c);
-      }
-  }
+            char c = 'A';
+		    System.out.println("c++ = " + c++);
+            System.out.println("++c = " + ++c);
+        }
+    }
 
 # 기타 연산자
+
 | 유형 | 표현 |
 |:--------|--------:|
 | int max = (a>b) ? a : b | (a > b) 식이 참이면 a, 거짓이면 b를 max 값으로 저장 |
