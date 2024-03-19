@@ -19,7 +19,7 @@ comments: false
 ## 우리는 기초 코딩까지만 사용할 예정
 
 ## 코드쟁이 TMI
-### 다룰 수 있는 언어 : Python, Java, C++, C#, html, css, Javascript, Lua, MarkDown, Vue, sql
+### 다룰 수 있는 언어 : Python, Java, C++, C#, html, css, Javascript, Lua, MarkDown, sql
 ### 세부 기술들
 
 | 언어 | 기술 |
@@ -27,5 +27,5 @@ comments: false
 | Python | PyQT5, Flask, BeautifulSoup, PyMySql, konlpy, RabbitMQ, schedule, pip, pygame, Qt designer |
 | Java | hibernate, sparkjava, lombok, Maven, SpringBoot, jsoup, mysql, freemarker |
 | C#, C++ | Unity |
-| Javascript | d3, chartjs, NodeJS |
+| Javascript | d3, chartjs, NodeJS, Vue, Bootstrap |
 {: rules="groups"}
