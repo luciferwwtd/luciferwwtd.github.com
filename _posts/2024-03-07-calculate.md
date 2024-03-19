@@ -60,7 +60,7 @@ comments: true
 
     public class OperatorIncrement {
         public static void main(String args[]) {
-		    int i = 0, b;
+            int i = 0, b;
 		    b = i++;
 		    //	b = i;
 		    //	i = i + 1;
