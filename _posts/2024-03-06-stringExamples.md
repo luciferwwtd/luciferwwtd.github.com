@@ -30,19 +30,19 @@ comments: true
 	    public static void main(String[] args) {
 		    Scanner scanner = new Scanner(System.in);
 		    System.out.println("Enter Number:"); 
- 		    int intValue = scanner.nextInt();
- 		    System.out.println(intValue);
+            int intValue = scanner.nextInt();
+            System.out.println(intValue);
 		
             System.out.println("Enter Float:"); 
             float floatValue = scanner.nextFloat();
             System.out.println(floatValue);
 		
             System.out.println("Enter String with Space:");
-		    String stringValue = scanner.next();
- 		    System.out.println(stringValue);
+            String stringValue = scanner.next();
+            System.out.println(stringValue);
 		
-		    stringValue = scanner.nextLine();
-		    System.out.println(stringValue);
+            stringValue = scanner.nextLine();
+            System.out.println(stringValue);
 		
 		    scanner.close();
 	    }
