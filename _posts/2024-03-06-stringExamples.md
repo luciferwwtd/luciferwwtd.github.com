@@ -28,8 +28,8 @@ comments: true
 
     public class InputFormat {
 	    public static void main(String[] args) {
-		    Scanner scanner = new Scanner(System.in);
-		    System.out.println("Enter Number:"); 
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Enter Number:"); 
             int intValue = scanner.nextInt();
             System.out.println(intValue);
 		
@@ -44,7 +44,7 @@ comments: true
             stringValue = scanner.nextLine();
             System.out.println(stringValue);
 		
-		    scanner.close();
+            scanner.close();
 	    }
     }
 
