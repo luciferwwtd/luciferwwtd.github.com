@@ -33,11 +33,11 @@ comments: true
  		    int intValue = scanner.nextInt();
  		    System.out.println(intValue);
 		
- 		    System.out.println("Enter Float:"); 
- 		    float floatValue = scanner.nextFloat();
- 		    System.out.println(floatValue);
+            System.out.println("Enter Float:"); 
+            float floatValue = scanner.nextFloat();
+            System.out.println(floatValue);
 		
-		    System.out.println("Enter String with Space:");
+            System.out.println("Enter String with Space:");
 		    String stringValue = scanner.next();
  		    System.out.println(stringValue);
 		
