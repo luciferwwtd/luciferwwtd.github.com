@@ -20,9 +20,8 @@ comments: true
     			hanoi(n-1, by, from, to);		//	2 -> 3, by 1
     		}
         }
-    }
 	
-	public static void main(String[] args) {
+    	public static void main(String[] args) {
     		hanoi(3, 1, 2, 3);
     	}
     }
