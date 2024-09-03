@@ -15,20 +15,14 @@ PPT: https://www.miricanvas.com/v/13genyr
 # 함수 예시
 
 public class Main {
-
   static void myMethod() {
-
-    System.out.println("I just got executed!");
-
+    System.out.println("Executed!");
   }
 
   
   public static void main(String[] args) {
-
-    myMethod();
-
+    myMethod()
   }
-
 }
 
 # 매개변수 예시
