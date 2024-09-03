@@ -8,10 +8,10 @@ tag:
 comments: true
 ---
 
-# 함수 예시
-
 PPT: https://www.miricanvas.com/v/13genyr
 답안 제출: https://forms.gle/268buqsssVo9uheq8
+
+# 함수 예시
 
   public class Main {
     static void myMethod() {
