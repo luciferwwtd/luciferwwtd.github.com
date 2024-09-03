@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "코드 예시들 모음 및 실습 제출"
+title:  "코드 예시들 모음 및 실습 제출(함수와 클래스)"
 date:   2024-09-02
 excerpt: ""
 tag:
