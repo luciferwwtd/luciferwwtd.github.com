@@ -14,8 +14,6 @@ PPT: https://www.miricanvas.com/v/13genyr
 
 # 함수 예시
 
-example
-
     public class Main {
       static void myMethod() {
         System.out.println("Executed!");
