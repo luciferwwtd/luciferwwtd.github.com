@@ -14,55 +14,55 @@ PPT: https://www.miricanvas.com/v/13genyr
 
 # 함수 예시
 
-public class Main {
-  static void myMethod() {
-    System.out.println("Executed!");
-  }
+example
 
-  
-  public static void main(String[] args) {
-    myMethod()
-  }
-}
+    public class Main {
+      static void myMethod() {
+        System.out.println("Executed!");
+      }
+
+      public static void main(String[] args) {
+        myMethod()
+      }
+    }
 
 # 매개변수 예시
 
-  public class Main {
-    static void myMethod(String fname) {
-      System.out.println(fname + " Refsnes");
-    }
+    public class Main {
+      static void myMethod(String fname) {
+        System.out.println(fname + " Refsnes");
+      }
   
-    public static void main(String[] args) {
-      myMethod("Liam");
-      myMethod("Jenny");
-      myMethod("Anja");
+      public static void main(String[] args) {
+        myMethod("Liam");
+        myMethod("Jenny");
+        myMethod("Anja");
+      }
     }
-  }
 
 # 리턴 예시
 
-  public class Main {
-    static int myMethod(int x) {
-      return 5 + x;
-    }
+    public class Main {
+      static int myMethod(int x) {
+        return 5 + x;
+      }
   
-    public static void main(String[] args) {
-      System.out.println(myMethod(3));
+      public static void main(String[] args) {
+        System.out.println(myMethod(3));
+      }
     }
-  }
 
 # 클래스 예시
 
-  public class Main {
-    int x;
+    public class Main {
+      int x;
   
-    // Create a class constructor for the Main class
-    public Main() {
-      x = 5;
-    }
+      public Main() {
+        x = 5;
+      }
   
-    public static void main(String[] args) {
-      Main myObj = new Main();
-      System.out.println(myObj.x);
+      public static void main(String[] args) {
+        Main myObj = new Main();
+        System.out.println(myObj.x);
+      }
     }
-  }
