@@ -14,6 +14,19 @@ PPT: https://www.miricanvas.com/v/13genyr
 실습 PPT: https://www.miricanvas.com/v/13otvxx
 답안 제출: https://forms.gle/wXeENDnKu7YJpDTp7
 
+# Scanner 예시
+
+    import java.util.Scanner;
+
+    public class test {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Enter Number");
+            int intValue = scanner.nextInt();
+            System.out.println(intValue);
+        }
+    }
+
 # 함수 예시
 
     public class Main {
